@@ -12,9 +12,9 @@ O histórico publicado contém **71 arquivos**:
 
 Os exercícios abordam cálculo de médias, ingressos, boletim, FROM/condicionais, laços, fatorial, Fibonacci, tabuada, sistema bancário, controle de estoque, jogos e análise de faturamento, entre outros.
 
-## Atenção ao clonar no Windows
+## Clonagem no Windows
 
-O diretório chamado `Dominando Algoritmos com Python ` termina com um **espaço**. No Windows, isso impede o checkout completo e também falha em `git archive`. O conteúdo continua íntegro no histórico Git; em um sistema que aceita o caminho, os arquivos podem ser lidos normalmente. Corrigir o nome exigiria renomear o diretório no histórico e atualizar referências, portanto a mudança não foi feita aqui.
+O diretório chamado `Dominando Algoritmos com Python ` terminava com um **espaço**, o que impedia o checkout completo no Windows e falhava em `git archive`. Em 25/11/2026 ele foi renomeado para `Dominando Algoritmos com Python` em um commit normal, sem reescrita de histórico. Quem já tinha clonado deve atualizar o repositório ou fazer um clone novo para obter os caminhos corrigidos.
 
 ## Como executar
 
